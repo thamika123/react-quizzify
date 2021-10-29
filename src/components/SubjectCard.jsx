@@ -5,7 +5,12 @@ function SubjectCard(props) {
             onClick={() => props.onClick(props.subject.toLowerCase())}
         >
             <div className="flex justify-center pt-12">
-                <img src={props.img} className="w-44 h-44" />
+                <img
+                    src={props.imgSrc}
+                    alt={props.imgAlt}
+                    width="180"
+                    height="180"
+                />
             </div>
             <h2 className="text-gray-800 font-sans font-medium text-xl pt-8 pl-8">
                 {props.subject}

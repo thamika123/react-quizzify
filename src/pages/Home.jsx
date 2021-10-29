@@ -13,22 +13,26 @@ function Home(props) {
             <Header>Choose a category to get started:</Header>
             <div className="flex flex-row flex-wrap justify-center mt-16">
                 <SubjectCard
-                    img={geoIcon}
+                    imgSrc={geoIcon}
+                    imgAlt="An illustration of a globe"
                     subject="Geography"
                     onClick={onClick}
                 />
                 <SubjectCard
-                    img={histIcon}
+                    imgSrc={histIcon}
+                    imgAlt="An illustration of a shield"
                     subject="History"
                     onClick={onClick}
                 />
                 <SubjectCard
-                    img={sciIcon}
+                    imgSrc={sciIcon}
+                    imgAlt="An illustration of a beaker"
                     subject="Science"
                     onClick={onClick}
                 />
                 <SubjectCard
-                    img={spaceIcon}
+                    imgSrc={spaceIcon}
+                    imgAlt="An illustration of a meteor"
                     subject="Space"
                     onClick={onClick}
                 />
