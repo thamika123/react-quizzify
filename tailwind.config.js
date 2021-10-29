@@ -3,7 +3,7 @@ module.exports = {
         "./src/**/*.html",
         "./src/**/*.jsx"
     ],
-    darkMode: false, // or 'media' or 'class'
+    darkMode: "media", // or 'media' or 'class'
     theme: {
         fontFamily: {
             "sans": ["Dosis"],
@@ -12,6 +12,7 @@ module.exports = {
             boxShadow: {
                 "lg": "5px 10px 30px #e5e7eb",
                 "xl": "10px 25px 20px #e5e7eb",
+                "dark": "5px 10px 30px #1F2937"
             },
             fontSize: {
                 "lg": "1.25rem",
@@ -24,7 +25,11 @@ module.exports = {
         },
     },
     variants: {
-        extend: {},
+        extend: {
+            boxShadow: ["dark"]
+        },
     },
-    plugins: [],
+    plugins: [
+        require("@tailwindcss/forms")
+    ],
 };
