@@ -1,0 +1,163 @@
+{
+    "geography": [
+        {
+            "question": "What is the capital city of Switzerland?",
+            "answers": ["Geneva", "Zurich", "Bern", "Lausanne"],
+            "correctAnswer": "Bern"
+        },
+        {
+            "question": "What is the world's largest river by volume?",
+            "answers": ["The Nile", "The Amazon", "The Congo", "The Yangtze"],
+            "correctAnswer": "The Amazon"
+        },
+        {
+            "question": "What is the most populous city in the world?",
+            "answers": ["Tokyo", "Beijing", "Mumbai", "New York"],
+            "correctAnswer": "Tokyo"
+        },
+        {
+            "question": "How large an area does Asia cover in km³?",
+            "answers": [
+                "44.58 million",
+                "52.64 million",
+                "41.59 million",
+                "48.41 million"
+            ],
+            "correctAnswer": "44.58 million"
+        },
+        {
+            "question": "Which of these is not one of the 7 wonders of the ancient world?",
+            "answers": [
+                "The Great Pyramid of Giza",
+                "The Statue of Zeus at Olympia",
+                "The Parthenon",
+                "The Colossus of Rhodes"
+            ],
+            "correctAnswer": "The Parthenon"
+        }
+    ],
+
+    "history": [
+        {
+            "question": "When were the first Olympic games held?",
+            "answers": ["772 BC", "1896 AD", "776 BC", "692 BC"],
+            "correctAnswer": "776 BC"
+        },
+        {
+            "question": "What was the capital city of the Byzantine Empire?",
+            "answers": ["Rome", "Constantinople", "Pompeii", "Antioch"],
+            "correctAnswer": "Constantinople"
+        },
+        {
+            "question": "In Greek mythology, where did the gods live?",
+            "answers": [
+                "Mount Olympus",
+                "The Elysian Fields",
+                "Mount Othrys",
+                "Mount Ida"
+            ],
+            "correctAnswer": "Mount Olympus"
+        },
+        {
+            "question": "Who was Otto von Bismarck?",
+            "answers": [
+                "A German general during World War 1",
+                "An Austrian prince",
+                "The first German chancellor",
+                "A Swiss scientist"
+            ],
+            "correctAnswer": "The first German chancellor"
+        },
+        {
+            "question": "What was the largest empire in history?",
+            "answers": [
+                "The Mongol Empire",
+                "The Roman Empire",
+                "The Russian Empire",
+                "The British Empire"
+            ],
+            "correctAnswer": "The British Empire"
+        }
+    ],
+
+    "science": [
+        {
+            "question": "What does the mass number of an atom indicate?",
+            "answers": [
+                "The number of protons",
+                "The number of neutrons",
+                "The number of protons and neutrons",
+                "The number of electrons"
+            ],
+            "correctAnswer": "The number of protons and neutrons"
+        },
+        {
+            "question": "How many bones are there in the human body?",
+            "answers": ["216", "206", "208", "214"],
+            "correctAnswer": "206"
+        },
+        {
+            "question": "The force acting on an object due to gravity is:",
+            "answers": [
+                "Weight",
+                "Mass",
+                "Gravitational acceleration",
+                "Moment"
+            ],
+            "correctAnswer": "Weight"
+        },
+        {
+            "question": "What is the chemical symbol of iron?",
+            "answers": ["Io", "Fe", "Sn", "Ir"],
+            "correctAnswer": "Fe"
+        },
+        {
+            "question": "What is the largest bone in the human body?",
+            "answers": ["Tibia", "Fibula", "Humerus", "Femur"],
+            "correctAnswer": "Femur"
+        }
+    ],
+
+    "space": [
+        {
+            "question": "Which planet does the moon Europa orbit?",
+            "answers": ["Saturn", "Jupiter", "Uranus", "Mars"],
+            "correctAnswer": "Jupiter"
+        },
+        {
+            "question": "How old is the universe?",
+            "answers": [
+                "13.77 billion years",
+                "4.55 billion years",
+                "12.65 billion years",
+                "6.78 billion years"
+            ],
+            "correctAnswer": "13.77 billion years"
+        },
+        {
+            "question": "Who was the first person in space?",
+            "answers": [
+                "Neil Armstrong",
+                "Alan Shepard",
+                "Buzz Aldrin",
+                "Yuri Gagarin"
+            ],
+            "correctAnswer": "Yuri Gagarin"
+        },
+        {
+            "question": "What is the tallest mountain in the solar system?",
+            "answers": [
+                "Mount Everest",
+                "Mauna Kea",
+                "Olympus Mons",
+                "Haleakala"
+            ],
+            "correctAnswer": "Olympus Mons"
+        },
+        {
+            "question": "What planet in the solar system has no moons?",
+            "answers": ["Mars", "Mercury", "Venus", "Neptune"],
+            "correctAnswer": "Mercury"
+        }
+    ]
+}
