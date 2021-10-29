@@ -2,7 +2,7 @@ function Answer(props) {
     return (
         <div
             className="bg-gray-100 mx-6 h-16 w-auto mb-4 rounded-md flex items-center"
-            onClick={props.onClick}
+            onClick={() => props.onClick(props.answer)}
         >
             <input
                 type="radio"

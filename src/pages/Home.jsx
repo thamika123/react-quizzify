@@ -10,7 +10,7 @@ function Home(props) {
     const onClick = props.onClick;
     return (
         <div>
-            <Header text="Choose a category to get started:" />
+            <Header>Choose a category to get started:</Header>
             <div className="flex flex-row flex-wrap justify-center mt-16">
                 <SubjectCard
                     img={geoIcon}
