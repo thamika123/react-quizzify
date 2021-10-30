@@ -1,6 +1,6 @@
 # Quizzify
 
-An simple quiz app with 5-question quizzes on different topics, buil with
+An simple quiz app with 5-question quizzes on different topics, built with
 React and Tailwind CSS. See it live [here](react-quizzify.netlify.app).
 
 ## Screenshots
