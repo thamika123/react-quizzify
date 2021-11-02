@@ -1,20 +1,27 @@
-import Header from "./Header";
-
 function EndQuiz(props) {
-    if (props.numCorrect >= 3) {
-        return (
-            <Header>
+    const percentCorrect = (100 * props.numCorrect) / 5;
+
+    let header;
+    if (percentCorrect >= 60) {
+        header = (
+            <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-300 text-center">
                 Well done! You got{" "}
-                <span className="text-green-500">{props.numCorrect}/5</span>!
-            </Header>
+                <span className="text-green-500">{percentCorrect}%!</span>
+            </h1>
+        );
+    } else {
+        header = (
+            <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-300 text-center">
+                You got <span className="text-red-500">{percentCorrect}%.</span>{" "}
+                Better luck next time!
+            </h1>
         );
     }
 
     return (
-        <Header>
-            You got <span className="text-red-500">{props.numCorrect}/5</span>.
-            Better luck next time!
-        </Header>
+        <div className="flex justify-center items-center h-screen">
+            {header}
+        </div>
     );
 }
 
