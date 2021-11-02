@@ -22,14 +22,6 @@ class Quiz extends React.Component {
     }
 
     handleClick(answer) {
-        this.checkAnswer(answer);
-        this.setState(state => ({
-            questionNumber:
-                state.questionNumber < 4 ? state.questionNumber + 1 : false,
-        }));
-    }
-
-    checkAnswer(answer) {
         this.setState({ statusShown: true });
 
         const correctAnswer =
@@ -50,7 +42,15 @@ class Quiz extends React.Component {
             this.setState({ currentQuestionCorrect: false });
         }
 
-        setTimeout(() => this.setState({ statusShown: false }), 500);
+        setTimeout(() => this.switchQuestion(), 750);
+    }
+
+    switchQuestion() {
+        this.setState(state => ({
+            statusShown: false,
+            questionNumber:
+                state.questionNumber < 4 ? state.questionNumber + 1 : false,
+        }));
     }
 
     render() {
